@@ -4,7 +4,7 @@
 
   <groupId>io.appflags</groupId>
   <artifactId>appflags-sdk-java</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <name>AppFlags Java SDK</name>
