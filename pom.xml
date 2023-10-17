@@ -51,7 +51,7 @@
     <dependency>
       <groupId>io.appflags</groupId>
       <artifactId>appflags-java-protobuf-types</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.2</version>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
