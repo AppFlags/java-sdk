@@ -35,6 +35,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <gpg.disabled>true</gpg.disabled> <!--Don't run gpg locally, set to false in .m2/settings.xml -->
   </properties>
 
   <dependencies>
@@ -108,6 +109,7 @@
               <goal>sign</goal>
             </goals>
             <configuration>
+              <skip>${gpg.disabled}</skip>
               <!-- Required for GPG https://stackoverflow.com/a/53992951/1332811 -->
               <gpgArguments>
                 <arg>--pinentry-mode</arg>
