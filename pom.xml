@@ -22,7 +22,7 @@
   <scm>
     <connection>scm:git:https://gitlab.com/app-flags/sdks/appflags-sdk-java.git</connection>
     <developerConnection>scm:git:https://gitlab.com/app-flags/sdks/appflags-sdk-java.git</developerConnection>
-    <url>https://appflags.io/</url>
+    <url>https://github.com/AppFlags/java-sdk</url>
   </scm>
   <licenses>
     <license>
